@@ -1,0 +1,20 @@
+{
+  "name": "second-task",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "build": "tsc",
+    "start": "node dist/cli.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "@types/node": "^22.15.18",
+    "@types/qrcode": "^1.5.5",
+    "commander": "^13.1.0",
+    "qrcode": "^1.5.4",
+    "typescript": "^5.8.3"
+  }
+}
